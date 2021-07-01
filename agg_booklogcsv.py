@@ -10,7 +10,7 @@ https://deepage.net/features/pandas-groupby.html
 """
 
 
-def analysys_execute(filename):
+def agg_execute(filename):
 
     csv_header = [
         "サービスID",
@@ -66,4 +66,4 @@ def analysys_execute(filename):
 
 
 if __name__ == "__main__":
-    analysys_execute("booklog.csv")
+    agg_execute("booklog.csv")
